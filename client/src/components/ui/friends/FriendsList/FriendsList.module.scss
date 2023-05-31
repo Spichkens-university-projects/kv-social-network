@@ -1,0 +1,7 @@
+.container {
+  @apply gap-4 w-full bg-block-light gdark:bg-block-dark p-4 rounded-lg
+}
+
+.header {
+  @apply gap-4
+}

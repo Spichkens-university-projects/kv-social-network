@@ -1,0 +1,4 @@
+export const POSTS_LIST_COUNT_LIMIT = 5;
+export const DIALOGS_LIST_COUNT_LIMIT = 10;
+export const MESSAGES_LIST_COUNT_LIMIT = 30;
+export const FRIENDS_LIST_COUNT_LIMIT = 10;

@@ -1,0 +1,7 @@
+.crossButton {
+  @apply hover:bg-hover-light hover:gdark:bg-hover-dark
+  p-1
+  aspect-square rounded-full
+  cursor-pointer
+  transition-colors
+}

@@ -1,0 +1,11 @@
+.container {
+  @apply relative
+}
+
+.icon {
+  @apply m-3 cursor-pointer
+}
+
+.popup {
+  @apply -bottom-[30px] right-0
+}

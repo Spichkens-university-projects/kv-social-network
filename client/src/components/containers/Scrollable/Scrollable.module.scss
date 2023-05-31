@@ -1,0 +1,19 @@
+.container {
+  @apply flex overflow-hidden
+}
+
+.container.vertical {
+  @apply flex-col h-full
+}
+
+.container.horizontal {
+  @apply flex-row w-full
+}
+
+.container.vertical.reverse {
+  @apply flex-col-reverse
+}
+
+.container.horizontal.reverse {
+  @apply flex-row-reverse
+}

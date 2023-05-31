@@ -1,0 +1,11 @@
+.container {
+  @apply w-full lg:basis-[65%]
+}
+
+.header {
+  @apply bg-block-light gdark:bg-block-dark p-4 rounded-t-lg
+}
+
+.list {
+  @apply rounded-b bg-block-light gdark:bg-block-dark
+}

@@ -1,0 +1,11 @@
+.container {
+ @apply w-full items-start pointer-events-auto select-none hover:bg-hover-light hover:gdark:bg-hover-dark py-1 cursor-pointer whitespace-nowrap px-10
+}
+
+.hstack {
+ @apply items-start gap-2
+}
+
+.label {
+ @apply text-xs
+}

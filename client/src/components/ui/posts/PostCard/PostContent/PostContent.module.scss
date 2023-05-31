@@ -1,0 +1,19 @@
+.authorBlock {
+  @apply gap-4
+}
+
+.avatar {
+  @apply rounded-md select-none shrink-0 object-cover aspect-square w-10
+}
+
+.authorName {
+  @apply font-semibold cursor-pointer hover:underline underline-offset-2 text-sm
+}
+
+.timestamp {
+  @apply text-text-inactive text-xs
+}
+
+.description {
+  @apply text-sm
+}

@@ -1,0 +1,15 @@
+.container {
+  @apply items-center gap-2 p-4 hover:bg-hover-light hover:gdark:bg-hover-dark cursor-pointer
+}
+
+.avatar {
+  @apply select-none shrink-0 rounded-md
+}
+
+.name {
+  @apply text-sm font-medium
+}
+
+.username {
+  @apply text-xs text-text-inactive
+}

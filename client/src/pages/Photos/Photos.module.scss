@@ -1,0 +1,11 @@
+.VContainer {
+ @apply  gap-4 rounded-lg bg-block-light gdark:bg-block-dark shadow-md p-4 w-full
+}
+
+.Hcontainer {
+  @apply justify-between items-center rounded-t-lg flex-wrap
+}
+
+.photo {
+  @apply w-[24.2%] aspect-square object-cover rounded-md
+}

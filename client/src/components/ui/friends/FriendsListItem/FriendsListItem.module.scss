@@ -1,0 +1,20 @@
+.container {
+ @apply items-start gap-4
+}
+
+.avatar {
+  @apply rounded-md flex-shrink-0 aspect-square object-cover w-20 h-20 cursor-pointer
+}
+
+.userInfo {
+  @apply justify-between grow h-full
+}
+
+.name {
+ @apply text-sm font-semibold cursor-pointer
+}
+
+.username {
+ @apply text-xs text-text-inactive cursor-pointer
+}
+

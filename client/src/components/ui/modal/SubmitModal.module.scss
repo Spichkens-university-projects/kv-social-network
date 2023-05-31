@@ -1,0 +1,19 @@
+.screen {
+  @apply fixed top-0 left-0 w-full h-full bg-black/60 center
+}
+
+.container {
+  @apply bg-block-light gdark:bg-block-dark p-6 rounded-lg gap-4
+}
+
+.title {
+  @apply text-lg font-semibold
+}
+
+.description {
+  @apply text-sm text-text-inactive
+}
+
+.buttons {
+  @apply self-end gap-4
+}

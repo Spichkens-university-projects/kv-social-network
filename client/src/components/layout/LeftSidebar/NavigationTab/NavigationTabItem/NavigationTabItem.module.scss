@@ -1,0 +1,15 @@
+.container {
+  @apply
+  gap-2 px-4 py-3
+  hover:bg-hover-light hover:gdark:bg-hover-dark
+  relative items-center
+}
+
+.label {
+  @extend .responsive;
+  @apply font-medium text-sm grow
+}
+
+.responsive {
+  @apply hidden md:inline
+}

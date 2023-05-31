@@ -1,0 +1,11 @@
+.container {
+  @apply w-full
+}
+
+.card {
+  @apply h-56
+}
+
+.avatar {
+  @apply rounded-lg border-block-light gdark:border-block-dark border-2
+}

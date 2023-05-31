@@ -1,0 +1,18 @@
+.container {
+  @apply bg-accents-gray/50 gdark:bg-hover-dark hover:bg-icon-inactive/40
+  center px-2.5 py-1 rounded-lg cursor-pointer gap-1
+  select-none transition-colors min-w-[54px]
+}
+
+.counter {
+  @apply text-xs font-bold text-text-inactive gdark:text-text-default
+}
+
+.container.liked > .counter {
+  @apply text-white
+}
+
+.container.liked {
+  @apply bg-accents-red/50 hover:bg-accents-red/50 transition-colors
+}
+

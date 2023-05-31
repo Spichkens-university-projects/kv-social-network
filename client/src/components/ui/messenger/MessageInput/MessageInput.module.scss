@@ -1,0 +1,7 @@
+.container {
+  @apply  p-4 items-center gap-2 border-t-[1px] border-text-inactive
+}
+
+.textarea {
+  @apply w-full min-h-0 resize-none rounded-md p-2 h-12 text-sm
+}

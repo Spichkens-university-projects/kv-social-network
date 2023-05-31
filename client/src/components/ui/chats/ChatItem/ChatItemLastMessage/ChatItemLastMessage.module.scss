@@ -1,0 +1,16 @@
+.blueText {
+  @apply text-accents-blue-light gdark:text-accents-blue-dark text-sm py-0.5
+}
+
+.messageStack {
+  @apply gap-2
+}
+.avatar {
+  @apply shrink-0 rounded-xs w-6 aspect-square object-cover
+}
+.messageText {
+  @apply  shrink-0 text-sm text-text-inactive py-0.5 grow
+}
+.unread {
+  @apply bg-hover-light gdark:bg-hover-dark rounded px-1
+}

@@ -1,0 +1,7 @@
+.default {
+  @apply  py-1 px-2 rounded-sm cursor-pointer select-none hover:bg-hover-light gdark:hover:bg-hover-dark
+}
+
+.selected {
+  @apply bg-hover-light gdark:bg-hover-dark
+}

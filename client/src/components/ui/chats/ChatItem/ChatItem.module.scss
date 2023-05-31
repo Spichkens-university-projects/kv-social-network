@@ -1,0 +1,20 @@
+.container {
+  @apply bg-block-light gdark:bg-block-dark px-4 py-2 items-center gap-2 cursor-pointer hover:bg-hover-light hover:gdark:bg-hover-dark
+}
+
+.avatar {
+  @apply rounded-md object-cover select-none w-14 aspect-square
+}
+
+.chatInfo {
+  @apply w-full gap-1
+}
+
+.chatTitle {
+  @apply font-semibold text-sm
+}
+
+.unread {
+  @apply bg-hover-light gdark:bg-hover-dark
+}
+

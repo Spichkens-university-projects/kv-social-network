@@ -1,0 +1,11 @@
+.container {
+  @apply gap-4
+}
+
+.label {
+  @apply justify-between items-center
+}
+
+.list {
+  @apply bg-block-light gdark:bg-block-dark rounded-lg overflow-hidden
+}

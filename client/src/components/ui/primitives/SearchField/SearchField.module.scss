@@ -1,0 +1,12 @@
+.container {
+  @apply
+  gap-3 rounded-md pl-4
+  items-center
+  outline-none
+  bg-hover-light gdark:bg-hover-dark;
+}
+
+
+.input {
+  @apply outline-0 bg-transparent h-fit w-full py-2 text-sm;
+}

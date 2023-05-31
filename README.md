@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Социальная сеть KV
 
-## Getting Started
+## Описание выбранных технологий
 
-First, run the development server:
+<div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<div align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <h1 align="center">NestJS</h1>
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>NestJS - это инструмент для разработки веб-приложений на Node.js. Он предоставляет разработчикам мощный набор инструментов для создания масштабируемых и модульных приложений с использованием объектно-ориентированного и функционального программирования, а также паттернов проектирования.</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<hr/>
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h1>Основными преимуществами NestJS являются:</h1>
 
-## Learn More
+1. Модульность: NestJS предлагает модульную архитектуру, которая позволяет разработчикам легко организовывать свой код и
+   управлять зависимостями.<br/>
 
-To learn more about Next.js, take a look at the following resources:
+2. Абстракция HTTP: NestJS предоставляет абстракцию HTTP-запросов и ответов, что позволяет разработчикам создавать
+   приложения, не зависящие от конкретного фреймворка.<br/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. MVC-подход: NestJS поддерживает модель-представление-контроллер (MVC) паттерн, что упрощает организацию кода и
+   разделение приложения на логические блоки.<br/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Отличная поддержка TypeScript: NestJS написан на TypeScript и предоставляет мощные инструменты для разработки на этом
+   языке, включая декораторы, типизацию и обработку ошибок на этапе компиляции.<br/>
 
-## Deploy on Vercel
+5. Поддержка множества протоколов: NestJS поддерживает множество протоколов, таких как HTTP, WebSockets, gRPC и многое
+   другое, что позволяет разработчикам создавать приложения, использующие различные протоколы связи.<br/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<hr/>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div align="center">
+  <a href="https://nextjs.org"><img src="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png" height="128"></a>
+    <h1 align="center">Next.js</h1>
+</div>
+
+<p>Next.js - это инструмент для разработки веб-приложений на React. Он предоставляет разработчикам мощный набор инструментов для создания производительных и масштабируемых приложений, используя серверный рендеринг и статическую генерацию.</p>
+
+<hr/>
+
+<h1>Основными преимуществами NextJs являются:</h1>
+
+1. Серверный рендеринг: Next.js предоставляет мощную поддержку серверного рендеринга, что позволяет создавать
+   приложения, которые быстро отображаются на стороне клиента. Это позволяет улучшить производительность приложения и
+   улучшить его SEO.<br/>
+
+2. Статическая генерация: Next.js предоставляет поддержку статической генерации, что позволяет создавать быстрые и
+   масштабируемые приложения, которые могут быть развернуты на различных хостинг-платформах.<br/>
+
+3. Автоматическая оптимизация: Next.js автоматически оптимизирует приложение для быстрой загрузки и максимальной
+   производительности, включая оптимизацию изображений, бандлов и кэширование.<br/>
+
+4. Поддержка TypeScript: Next.js поддерживает TypeScript, что позволяет разработчикам использовать сильную типизацию и
+   улучшить качество кода.<br/>
+
+<hr/>
+
+<div align="center">
+  <a href="https://redux.js.org/" target="blank"><img src="https://redux.js.org/img/redux.svg" width="200" alt="Redux Logo" /></a>
+  <h1 align="center">Redux</h1>
+</div>
+
+<p>Redux - это инструмент для управления состоянием приложения, который используется в приложениях на React и других фреймворках. Он предоставляет разработчикам мощный набор инструментов для управления состоянием приложения.</p>
+
+<hr/>
+
+<h1>Основными преимуществами Redux являются:</h1>
+
+1. Централизованное хранение данных: Redux предоставляет централизованное хранилище данных для приложения, что упрощает
+   управление состоянием и обеспечивает единообразность данных во всем приложении.<br/>
+
+2. Расширяемость: Redux предоставляет мощный API для расширения и настройки, что позволяет разработчикам создавать
+   приложения, удовлетворяющие их конкретным потребностям.<br/>
+
+3. Поддержка TypeScript: Redux поддерживает TypeScript, что позволяет разработчикам использовать сильную типизацию и
+   улучшить качество кода.<br/>
+
+<hr/>
+
+
+<div align="center">
+  <a href="https://www.mongodb.com/" target="blank"><img src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress" width="200" alt="Redux Logo" /></a>
+  <h1 align="center">MongoDB</h1>
+</div>
+
+<p>MongoDB - это документоориентированная система управления базами данных (СУБД), которая использует формат хранения данных в виде документов в формате BSON (Binary JSON). MongoDB позволяет разработчикам создавать масштабируемые и гибкие приложения, которые могут обрабатывать большие объемы данных.</p>
+
+<hr/>
+
+<h1>Основными преимуществами MongoDB являются:</h1>
+
+1. Гибкость: MongoDB использует документоориентированный подход к хранению данных, что делает его гибким и удобным для
+   работы с различными типами данных и структурами. Это позволяет разработчикам быстро и легко адаптироваться к
+   изменяющимся требованиям и разрабатывать приложения быстрее.<br/>
+
+2. Масштабируемость: MongoDB позволяет горизонтальное масштабирование, что означает, что приложения могут
+   масштабироваться по мере необходимости, добавляя новые серверы и увеличивая производительность. MongoDB также
+   поддерживает репликацию и шардинг, что позволяет обеспечивать высокую доступность и отказоустойчивость
+   приложений.<br/>
+
+3. Высокая производительность: MongoDB обеспечивает высокую производительность при работе с большими объемами данных,
+   что делает его идеальным для создания высоконагруженных приложений. MongoDB также поддерживает индексы и
+   агрегационные запросы, что позволяет разработчикам быстро и эффективно извлекать данные из базы данных.<br/>
+
+4. Поддержка облачных технологий: MongoDB поддерживает облачные технологии, такие как AWS, Azure и Google Cloud, что
+   делает его идеальным для создания облачных приложений.<br/>
+
+<hr/>
+
+</div>

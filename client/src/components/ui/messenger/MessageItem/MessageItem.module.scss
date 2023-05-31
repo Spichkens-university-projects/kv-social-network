@@ -1,0 +1,7 @@
+.messageText {
+  @apply text-sm break-words p-1
+}
+
+.unread {
+  @apply bg-hover-light gdark:bg-hover-dark
+}

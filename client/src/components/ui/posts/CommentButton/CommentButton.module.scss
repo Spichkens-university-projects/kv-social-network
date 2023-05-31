@@ -1,0 +1,9 @@
+.container {
+  @apply bg-accents-gray/50 gdark:bg-hover-dark hover:bg-icon-inactive/40
+  center px-2.5 py-1 rounded-lg cursor-pointer gap-1
+  select-none transition-colors
+}
+
+.counter {
+  @apply text-xs font-bold text-text-inactive gdark:text-text-default
+}

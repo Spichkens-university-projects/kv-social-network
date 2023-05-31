@@ -1,0 +1,15 @@
+.container {
+  @apply justify-between w-full bg-block-light gdark:bg-block-dark items-center p-2 rounded-t-lg border-b-[1px] border-text-inactive
+}
+
+.arrowBack {
+  @apply hover:bg-hover-light hover:gdark:bg-hover-dark rounded-full cursor-pointer p-1
+}
+
+.name {
+  @apply font-semibold cursor-pointer hover:underline underline-offset-4
+}
+
+.avatar {
+  @apply rounded-full cursor-pointer
+}

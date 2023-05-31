@@ -1,0 +1,23 @@
+.container {
+  @apply bg-block-light gdark:bg-block-dark p-4 rounded-lg gap-4
+}
+
+.user {
+  @apply items-center gap-2
+}
+
+.avatar {
+  @apply select-none shrink-0 rounded-md cursor-pointer
+}
+
+.name {
+  @apply text-sm font-medium cursor-pointer hover:underline underline-offset-2
+}
+
+.description {
+  @apply text-xs text-text-inactive
+}
+
+.buttons {
+  @apply justify-between gap-2 items-baseline
+}

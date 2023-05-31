@@ -1,0 +1,25 @@
+.container {
+  @apply
+  bg-block-light gdark:bg-block-dark
+  w-full
+  rounded-lg px-2.5
+}
+
+.topFloor {
+  @apply items-center
+}
+
+.botFloor {
+  @apply justify-between items-end pb-3
+}
+
+.avatar {
+  @apply rounded-md select-none shrink-0 aspect-square object-cover w-10
+}
+
+.input {
+  @apply w-full py-5 pl-2 bg-transparent outline-none text-sm
+}
+
+
+

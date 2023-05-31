@@ -1,0 +1,18 @@
+.navbar {
+  @apply
+  fixed z-50 w-full top-0
+  bg-block-light gdark:bg-block-dark
+  py-1
+}
+
+.navContainer {
+  @apply container justify-between items-center gap-4 relative
+}
+
+.rightSide {
+  @apply items-center gap-4
+}
+
+.avatar {
+  @apply rounded-md cursor-pointer flex-shrink-0 object-cover aspect-square w-10
+}

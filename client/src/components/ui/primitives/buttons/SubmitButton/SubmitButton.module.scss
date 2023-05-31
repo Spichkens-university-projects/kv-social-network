@@ -1,0 +1,31 @@
+.container {
+  @apply center py-2 px-4 rounded-lg text-xs font-semibold select-none cursor-pointer
+}
+
+.primary {
+  @apply
+  text-white hover:text-black hover:gdark:text-white
+  bg-accents-blue-light gdark:bg-accents-blue-dark
+}
+
+.secondary {
+  @apply
+  bg-transparent
+  py-1.5 px-3.5
+  border-2 border-accents-blue-light gdark:border-accents-blue-dark
+}
+
+.red {
+  @apply
+  text-white hover:text-black hover:gdark:text-white
+  bg-accents-red
+}
+
+.ghost {
+  @apply hover:bg-hover-light hover:gdark:bg-hover-dark
+  p-2 rounded-full cursor-pointer transition-colors
+}
+
+.disabled {
+  @apply bg-red-500
+}

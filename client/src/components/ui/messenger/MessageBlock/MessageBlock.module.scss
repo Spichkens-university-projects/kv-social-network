@@ -1,0 +1,23 @@
+.container {
+  @apply  gap-2 px-4 py-2 items-start rounded
+}
+
+.unread {
+  @apply bg-hover-light/40 gdark:bg-hover-dark
+}
+
+.avatar {
+  @apply rounded-md
+}
+
+.horStack {
+  @apply items-center gap-1.5
+}
+
+.senderName {
+  @apply text-sm font-semibold text-accents-blue-light gdark:text-accents-blue-dark cursor-pointer hover:underline
+}
+
+.timestamp {
+  @apply text-xs text-accents-gray
+}

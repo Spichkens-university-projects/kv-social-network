@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #DBE1E4;
+  overflow-y: scroll;
+}
+
+
+html.dark > body {
+  background-color: #141414;
+}
+
+:root {
+  --scrollbarBgColor: rgba(0, 0, 0, .05);
+  --scrollbarThumbColor: rgba(0, 0, 0, .15);
+  --scrollbarThumbColorSecond: rgba(255, 255, 255, .7);
+  --scrollbarWidth: 6px;
+  --scrollbarBorder: 0 solid var(--scrollbarBgColor);
+  --scrollbarBorderRadius: calc(var(--scrollbarWidth) / 4);
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbarWidth);
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbarBgColor);
+  border-radius: var(--scrollbarBorderRadius);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbarThumbColor);
+  border-radius: var(--scrollbarBorderRadius);
+  border: var(--scrollbarBorder);
+  background-image: linear-gradient(
+                  180deg,
+                  var(--scrollbarThumbColor) 0%,
+                  var(--scrollbarThumbColorSecond) 90%
+  );
+}
+
+
+
+
+
+
